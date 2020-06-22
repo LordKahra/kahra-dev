@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    html {
+        padding: 4px;
+    }
+    body {
+        max-width: initial;
+
+    }
+    html, body {
+        /*height: 100%;*/
+    }
+}
+
+@media (max-width: 767px) {
+    /* start of medium tablet styles */
+    html, body {
+
+    }
+
+    body > main > footer > form > input[type="text"] {
+        width: 120px;
+    }
+
+    body > main > footer > form > input[type="submit"] {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 479px) {
+    html, body {
+
+    }
+}

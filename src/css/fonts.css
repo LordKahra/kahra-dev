@@ -10,6 +10,12 @@
 }*/
 
 @font-face {
+    font-family: 'Quicksand';
+    src: url('../../res/fonts/Quicksand.ttf');
+    font-weight: 400;
+}
+
+@font-face {
     font-family: 'MavenPro';
     src: url('../fonts/MavenPro-Medium.ttf');
     font-weight: 500;

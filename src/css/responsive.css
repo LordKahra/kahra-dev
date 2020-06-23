@@ -1,9 +1,9 @@
 @media (max-width: 991px) {
     html {
-        padding: 4px;
+        /*padding: 4px;*/
     }
     body {
-        max-width: initial;
+        /*max-width: initial;*/
 
     }
     html, body {
@@ -15,6 +15,14 @@
     /* start of medium tablet styles */
     html, body {
 
+    }
+
+    body > header {
+         font-size: 20px;
+    }
+
+    body > header > .left {
+         font-size: 20px;
     }
 
     body > main > footer > form > input[type="text"] {

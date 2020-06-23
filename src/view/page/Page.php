@@ -61,10 +61,10 @@ function renderHeaderStart() {
 <header>
 
         <div class="left">
-            <a href="<?=SITE_HOST . "/"?>">Kahra.dev</a>
+            <a href="<?=SITE_HOST . "/"?>">Lane Flores, Software Developer</a>
         </div>
         <div>
-        <a href="<?=SITE_HOST . "/konami.php"?>">Test Page</a>
+        <a href="<?=SITE_HOST . "konami.php"?>">Test Page</a>
         <button src="<?=SITE_HOST . "/"?>">X</button>
         <button src="<?=SITE_HOST . "/"?>">X</button>
         </div>

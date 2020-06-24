@@ -26,7 +26,6 @@ build/
 #*.iml                  - Pushable since 0.3.
 .idea/
 log/
-res/
 
 # Composer
 /vendor/

@@ -16,6 +16,48 @@
 }
 
 @font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('../../res/fonts/SansitaSwashed-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
     font-family: 'MavenPro';
     src: url('../fonts/MavenPro-Medium.ttf');
     font-weight: 500;

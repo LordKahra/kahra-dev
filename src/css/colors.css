@@ -17,18 +17,19 @@ body > header,
 body > footer {
     background: #225599;
     color: #ffffff;
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);*/
 }
 
 ::-webkit-scrollbar {
-    width: 16px;               /* width of the entire scrollbar */
+    width: 0;               /* width of the entire scrollbar */
 }
 ::-webkit-scrollbar-track {
-    background: #222222;        /* color of the tracking area */
+    background: #dddddd;        /* color of the tracking area */
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #444444;    /* color of the scroll thumb */
+    background-color: #bbbbbb;    /* color of the scroll thumb */
     border-radius: 0;       /* roundness of the scroll thumb */
-    border: 1px solid #555555;  /* creates padding around scroll thumb */
+    border: 1px solid #aaaaaa;  /* creates padding around scroll thumb */
 }
 
 body > main {
@@ -39,7 +40,7 @@ body > main {
     scrollbar-darkshadow-color: #FFFFFF;
     scrollbar-track-color: #FFFFFF;
     scrollbar-arrow-color: #FFFFFF;
-    scrollbar-color: dark;
+    scrollbar-color: light;
 }
 
 .console_name {

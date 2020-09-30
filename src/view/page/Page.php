@@ -61,12 +61,10 @@ function renderHeaderStart() {
 <header>
 
         <div class="left">
-            <a href="<?=SITE_HOST . "/"?>">Lane Flores, Software Developer</a>
+            <a href="<?=SITE_HOST . "/"?>">Lane Flores, Software Developer and Interactive Storyteller</a>
         </div>
         <div>
-        <a href="<?=SITE_HOST . "konami.php"?>">Test Page</a>
-        <button src="<?=SITE_HOST . "/"?>">X</button>
-        <button src="<?=SITE_HOST . "/"?>">X</button>
+            <!-- Icons, etc -->
         </div>
 
     <?php
@@ -80,48 +78,6 @@ function renderHeaderStart() {
             default:
                 break;
         }
-    }
-
-    private function renderAdminHeaderMiddle() {
-        // Need database.
-        global /** @var EventDatabase $db */ $db;
-        // Need events without details.
-        $events = $db->getEvents("", false);
-        // Need guides.
-        $players = $db->getGuides();
-        ?>
-        <nav>
-            <ul>
-                <li><b>FILTERS</b></li>
-                <li><a href="admin_mod.php?filter=all">Admin Mods - All</a></li>
-                <li><a href="admin_mod.php?filter=current">Admin Mods - Current</a></li>
-                <li>
-                    <form action="admin_mod.php" method="get">Admin Mods by Event:
-                        <input type="hidden" name="filter" value="event"/>
-                        <select id="filter_id" name="filter_id" onchange="this.form.submit()">
-                            <option label=" ">Select an Event</option>
-                            <?php foreach ($events as $event) { ?>
-                                <option value="<?=$event->getId() ?>"><?=$event->getName()?></option>
-                            <?php } ?>
-                        </select>
-                    </form>
-                </li>
-
-                <li><a href="admin_character.php">Admin Characters</a></li>
-                <!--li>
-                    <form action="admin.php" method="get">Admin Mods by Guide:
-                        <input type="hidden" name="filter" value="player"/>
-                        <select id="filter_id" name="filter_id" onchange="this.form.submit()">
-                            <option label=" ">Select a Guide</option>
-                            <?php foreach ($players as $player) { ?>
-                                <option value="<?=$player->getId() ?>"><?=$player->getName()?></option>
-                            <?php } ?>
-                        </select>
-                    </form>
-                </li-->
-            </ul>
-        </nav>
-        <?php
     }
 
 
@@ -138,7 +94,9 @@ function renderHeaderStart() {
 
 </main>
 <footer>
-    <div>FOOTER</div>
+    <a href="https://github.com/LordKahra"><img src="<?=SITE_HOST . "/res/images/icon-github-32.png"?>" /></a>
+    <a href="https://www.linkedin.com/in/laneflores/"><img src="<?=SITE_HOST . "/res/images/icon-linkedin.png"?>" /></a>
+    <a href="<?=SITE_HOST . "/konami.php"?>">Test Page</a>
 </footer>
 
 </body>

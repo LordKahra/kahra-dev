@@ -27,6 +27,10 @@ a {
     color: inherit;
 }
 
+img {
+    vertical-align: bottom;
+}
+
 /** {
     font-family: monospace;
     font-size: 24px;
@@ -56,6 +60,9 @@ button {
 
 body > main {
     /*max-height: 90%;*/
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     overflow-y: auto;
     flex-grow: 1;
     padding: 16px;
@@ -74,4 +81,30 @@ body > main > section {
 }
 body > main > section > ul {
     list-style-type: square;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+h2 {
+    font-size: 1.0em;
+}
+
+figure {
+    width: 80%;
+}
+
+figure > header {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+ul {
+    list-style-type: "\2605";
+    padding-inline-start: 20px;
+}
+
+ul > li {
+    padding-left: 10px;
 }

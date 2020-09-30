@@ -4,18 +4,28 @@ body > footer {
     flex-direction: row;
     padding: 1px;
     align-items: center;
-    font-family: 'VT323', monospace;
+    font-family: 'Sansita', monospace;
     font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+body > header img,
+body > footer img {
+    height: 32px;
 }
 
 body > header > .left {
     font-size: 36px;
+    line-height: 50px;
+    padding-top: 2px;
+    padding-left: 16px;
 }
 
 body > header > *,
 body > footer > * {
     flex-grow: 0;
-    padding: 8px 16px;
+    padding: 4px 4px;
 }
 
 body > header > *:first-child {

@@ -32,6 +32,7 @@ require_once SITE_ROOT . "/src/view/page/ErrorPage.php";
 
 require_once SITE_ROOT . "/src/view/page/IndexPage.php";
 require_once SITE_ROOT . "/src/view/page/KonamiPage.php";
+require_once SITE_ROOT . "/src/view/page/StorytellerPage.php";
 
 
 

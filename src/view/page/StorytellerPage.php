@@ -60,7 +60,7 @@ class StorytellerPage extends Page {
             <h1 id="portfolio">Works</h1>
 
             <figure>
-                <header>The Free City of Skunkraft - Design Document - <a href="https://docs.google.com/document/d/1x4TglmfKvxssRPC3ngMEohVpQC4vUvd1TPCuDaCPPjo/edit?usp=sharing">https://docs.google.com/document/d/1x4TglmfKvxssRPC3ngMEohVpQC4vUvd1TPCuDaCPPjo/edit?usp=sharing</a></header>
+                <header>The Free City of Skunkraft - <a href="https://docs.google.com/document/d/1x4TglmfKvxssRPC3ngMEohVpQC4vUvd1TPCuDaCPPjo/edit?usp=sharing">Design Document</a></header>
                 <main>
                     <ul>
                         <li>The setting document for the Free City of Skunkraft, a city in the lore of Dystopia Rising Florida.</li>

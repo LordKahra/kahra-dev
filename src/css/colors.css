@@ -2,12 +2,15 @@
     --color-primary: #ccc;
     --color-secondary: #f6b26d;
     --color-contrast: #000;
+    --color-intense: #cc9900;
     --color-monospace: #d7c4ac;
     --color-monospace-title: #f5d6b8;
     --color-monospace-dim: #807466;
     --color-monospace-contrast: #cc6600;
-    --color-background-primary: #222;
+    --color-background-primary: #111;
     --color-background-secondary: #000;
+    --color-background-tertiary: #222;
+    --color-background-light: #444;
     --color-background-contrast: #ff9f40;
     --color-background-monospace: #000;
     --color-background-monospace-title: #222;
@@ -16,6 +19,8 @@
     --color-button-yellow: #bfbf30;
     --color-button-green: #30bf30;
 
+    --size-radius-default: 1rem;
+    --size-border-default: 2px;
     --size-terminal-radius: 1rem;
     --size-terminal-border: 2px;
 }

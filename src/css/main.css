@@ -144,7 +144,7 @@ body > main {
     margin-right: auto;
     overflow-y: auto;
     flex-grow: 1;
-    padding: 16px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +171,7 @@ h2 {
 }
 
 figure {
-    width: 80%;
+    /*width: 80%;*/
 }
 
 figure > header {
@@ -180,8 +180,10 @@ figure > header {
 }
 
 ul {
-    list-style-type: "\2605";
-    padding-inline-start: 20px;
+    /*list-style-type: "\2605";
+    padding-inline-start: 20px;*/
+    list-style-type: none;
+    padding-inline-start: 0;
 }
 
 ul > li {

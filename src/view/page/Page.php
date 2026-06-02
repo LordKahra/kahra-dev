@@ -101,9 +101,14 @@ function renderHeaderStart() {
 
 </main>
 <footer>
-    <a href="https://github.com/LordKahra"><img src="<?=SITE_HOST . "/res/images/icon-github-32.png"?>" /></a>
-    <a href="https://www.linkedin.com/in/laneflores/"><img src="<?=SITE_HOST . "/res/images/icon-linkedin.png"?>" /></a>
-    <a href="<?=SITE_HOST . "/konami.php"?>">Test Page</a>
+    <main>
+        © 2026 Lane Flores // kahra-dev 2.0
+    </main>
+    <ul>
+        <li><a href="https://github.com/LordKahra"><!--img src="<?=SITE_HOST . "/res/images/icon-github-32.png"?>" /-->Github</a></li>
+        <li><a href="https://www.linkedin.com/in/laneflores/"><!--img src="<?=SITE_HOST . "/res/images/icon-linkedin.png"?>" /-->LinkedIn</a></li>
+    </ul>
+
 </footer>
 
 </body>

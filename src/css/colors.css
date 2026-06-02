@@ -1,6 +1,28 @@
+:root {
+    --color-primary: #ccc;
+    --color-secondary: #f6b26d;
+    --color-contrast: #000;
+    --color-monospace: #d7c4ac;
+    --color-monospace-title: #f5d6b8;
+    --color-monospace-dim: #807466;
+    --color-monospace-contrast: #cc6600;
+    --color-background-primary: #222;
+    --color-background-secondary: #000;
+    --color-background-contrast: #ff9f40;
+    --color-background-monospace: #000;
+    --color-background-monospace-title: #222;
+
+    --color-button-red: #bf3030;
+    --color-button-yellow: #bfbf30;
+    --color-button-green: #30bf30;
+
+    --size-terminal-radius: 1rem;
+    --size-terminal-border: 2px;
+}
+
 html {
-    background: #ffffff;
-    color: #000000;
+    background: var(--color-background-primary);
+    color: var(--color-primary);
 }
 
 input {
@@ -15,8 +37,8 @@ input[type="submit"] {
 
 body > header,
 body > footer {
-    background: #225599;
-    color: #ffffff;
+    background: var(--color-background-secondary);
+    color: var(--color-secondary);
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);*/
 }
 

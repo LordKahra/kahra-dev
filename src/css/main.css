@@ -1,3 +1,69 @@
+/**** ************************
+ **** CSS RESETS ****
+************************ ****/
+
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* [RESET] box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* [RESET] margins */
+*:not(dialog) {
+    margin: 0;
+}
+
+/* [RESET] Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+/* [RESET] Line Height Increase; Text Rendering */
+body {
+    /*line-height: 1.5;*/
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    /*line-height: 1.5;
+    line-height: calc(1em + 0.5rem);*/
+}
+
+/* [RESET] Media Defaults */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* [RESET] Inherit fonts for form controls */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* [RESET] [DISABLED] Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+    /* overflow-wrap: break-word; */
+}
+
+/* [RESET] Line Wrapping */
+p {
+    text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+/* [RESET] [DISABLED] Create a root stacking context. Important for JS Frameworks. */
+#root, #__next {
+    /* isolation: isolate; */
+}
+
+/**** ************************
+ **** GLOBALS ****
+************************ ****/
+
 html {
     /*padding: 32px 64px;*/
     /*padding: 1vh 1vw;*/
@@ -10,11 +76,12 @@ html {
 
 html, body {
     margin: 0;
+    padding: 0;
 }
 
 html, body, body > main {
     font-family: 'Quicksand', monospace;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 body > main a {
@@ -57,6 +124,18 @@ button {
 .spacing {
     white-space: pre-wrap;
 }
+
+/**** ************************
+ **** HEADER IS IN header-footer.css ****
+************************ ****/
+
+
+
+
+
+/**** ************************
+ **** MAIN ****
+************************ ****/
 
 body > main {
     /*max-height: 90%;*/
@@ -108,3 +187,111 @@ ul {
 ul > li {
     padding-left: 10px;
 }
+
+/* SPECIAL OBJECTS */
+
+.buttons {
+    display: flex;
+    gap: 0.375rem;
+}
+
+.buttons > * {
+    display: inline;
+}
+
+.buttons .red {
+    color: var(--color-button-red);
+}
+
+.buttons .yellow {
+    color: var(--color-button-yellow);
+}
+
+.buttons .green {
+    color: var(--color-button-green);
+}
+
+.buttons > div {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid hsl(from currentColor h s calc(l - 25));
+    border-radius: 0.5rem;
+    background-color: currentColor;
+}
+
+
+
+.terminal {
+    font-family: var(--font-monospace), monospace;
+    color: var(--color-monospace);
+    background-color: var(--color-background-monospace);
+    /*padding: 1rem;*/
+    border: 2px solid var(--color-background-monospace);
+    border-radius: var(--size-terminal-radius);
+}
+
+.terminal > header, .terminal > main {
+    width: 100%;
+    padding: 1rem;
+}
+
+.terminal > header {
+    border-radius: calc(var(--size-terminal-radius) - var(--size-terminal-border));
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: var(--size-terminal-border) solid var(--color-background-monospace-title);
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    color: var(--color-monospace-title);
+    background-color: var(--color-background-monospace-title);
+}
+
+.terminal > header * {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.terminal > main {
+    padding: 1rem;
+}
+
+.terminal > main > * {
+    padding: 0.5rem;
+}
+
+.terminal > main > h1 {
+    color: white;
+}
+
+.terminal > main > section.subtitle {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+.terminal > main > section.subtitle > * {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.terminal > main > section.subtitle > .code {
+    color: var(--color-monospace-dim);
+}
+
+.terminal > main > section.subtitle > .code .contrast {
+    color: var(--color-monospace-contrast);
+}
+
+.terminal > main > section.subtitle > ul.code > li {
+    list-style-type: none;
+}
+
+.terminal > main > section.subtitle > ul.code > li::before {
+    content: "> ";
+}
+
+
+
+

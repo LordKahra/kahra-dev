@@ -54,18 +54,25 @@ function renderHeaderStart() {
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/header-footer.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/visible.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/<?=$this->getType()?>.css"/>
     <script src="<?php echo SITE_HOST; ?>/js/jquery-1.12.3.js"></script>
     <script src="<?php echo SITE_HOST; ?>/js/view.js"></script>
 </head>
 <body>
 <header>
 
-        <div class="left">
-            <a href="<?=SITE_HOST . "/"?>">Lane Flores, Software Developer and Interactive Storyteller</a>
-        </div>
-        <div>
-            <!-- Icons, etc -->
-        </div>
+    <div class="left name">
+        <a href="<?=SITE_HOST . "/"?>">Lane Flores</a>
+    </div>
+
+    <ul>
+        <li>Experience</li>
+        <li>Skillset</li>
+        <li>Works</li>
+        <li>About</li>
+    </ul>
+
+    <button>Connect</button>
 
     <?php
     }

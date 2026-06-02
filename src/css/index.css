@@ -1,0 +1,18 @@
+body > main > h1 {
+    text-align: start;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: var(--color-secondary);
+}
+
+body > main > h1::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: hsl(from currentColor h s calc(l - 50));
+    margin-left: 1rem;
+}

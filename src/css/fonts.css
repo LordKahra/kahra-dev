@@ -1,3 +1,6 @@
+/* FONT TERMS DEFINED AT END. */
+
+
 /*@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 /* FREE FOR COMMERCIAL USE */
@@ -161,3 +164,8 @@
     src: url('../fonts/unlicensed/MavenProLight-300.otf');
 }
 */
+
+:root {
+    --font-monospace: 'Source Code Pro', monospace;
+}
+

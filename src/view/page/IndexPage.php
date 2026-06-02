@@ -9,6 +9,153 @@ class IndexPage extends Page {
     }
 
     function renderBody() { ?>
+        <section id="intro" class="terminal">
+            <header>
+                <section class="buttons">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </section>
+                <section class="name">
+                    main.sh - Lane Flores
+                </section>
+            </header>
+            <main>
+                <p class="code">~/portfolio git:(main)</p>
+                <h1>Software Engineer and Storyteller.</h1>
+                <section class="subtitle">
+                    <div class="summary">
+                        A software engineer bridging the gap between robust engineering and immersive digital narratives. Based in the intersection of code and imagination.
+                    </div>
+                    <ul class="code">
+                        <li>Initializing environment...</li>
+                        <li>Loading core_modules/storytelling...</li>
+                        <li>Status: <span class="contrast">Ready</span></li>
+                    </ul>
+                </section>
+            </main>
+        </section>
+
+        <h1>Skillset</h1>
+        <section id="skillset">
+            <h1>Skillset</h1>
+            <main class="boxes">
+                <section class="backend">
+                    <header>Back-End & Core</header>
+                    <ul>
+                        <li>PHP 5, 7, 8+</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </section>
+                <section class="interactive">
+                    <header>Interactive</header>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </section>
+                <section class="devops">
+                    <header>Devops</header>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </section>
+                <section class="frontend">
+                    <header>Front-End</header>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>MySQL</li>
+                    </ul>
+                </section>
+            </main>
+        </section>
+
+        <section id="works">
+
+        </section>
+
+        <section id="experience">
+            <ul>
+                <li>
+                    <header>
+                        <h1>Waystar</h1>
+                        <h2>Aug 2024 - Current</h2>
+                    </header>
+                    <ul>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <header>
+                        <h1>Waystar</h1>
+                        <h2>Aug 2024 - Current</h2>
+                    </header>
+                    <ul>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <header>
+                        <h1>Waystar</h1>
+                        <h2>Aug 2024 - Current</h2>
+                    </header>
+                    <ul>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <header>
+                        <h1>Waystar</h1>
+                        <h2>Aug 2024 - Current</h2>
+                    </header>
+                    <ul>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <header>
+                        <h1>Waystar</h1>
+                        <h2>Aug 2024 - Current</h2>
+                    </header>
+                    <ul>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                        <li>INFO</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="about">
+
+        </section>
+
+
         <section>
             <h1>Welcome. My name is Lane.</h1>
             <p>Choose your path.</p>

@@ -1,0 +1,25 @@
+/* GLOBAL */
+
+[data-active="false"] {
+
+}
+
+[data-active="true"] {
+
+}
+
+/* MODS */
+
+/* MOD STYLE - SMALL */
+
+[data-fold="true"][data-active="false"] {
+
+}
+
+[data-fold="true"][data-active="false"] > main {
+    display: none;
+}
+
+[data-type="menu"][data-active="false"] > * {
+    display: none;
+}

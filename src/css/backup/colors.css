@@ -1,0 +1,52 @@
+html {
+    background: #ffffff;
+    color: #000000;
+}
+
+input {
+    background: #000000;
+    color: #00ff00;
+}
+
+input[type="submit"] {
+    background: #000000;
+    color: #00ff00;
+}
+
+body > header,
+body > footer {
+    background: #225599;
+    color: #ffffff;
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);*/
+}
+
+::-webkit-scrollbar {
+    width: 0;               /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+    background: #dddddd;        /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb;    /* color of the scroll thumb */
+    border-radius: 0;       /* roundness of the scroll thumb */
+    border: 1px solid #aaaaaa;  /* creates padding around scroll thumb */
+}
+
+body > main {
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+    scrollbar-color: light;
+}
+
+.console_name {
+    color: #0000ff;
+}
+
+.ooc {
+    color: #bbb;
+}

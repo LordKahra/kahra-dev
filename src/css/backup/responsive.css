@@ -1,0 +1,54 @@
+@media (max-width: 991px) {
+    html {
+        /*padding: 4px;*/
+    }
+    body {
+        /*max-width: initial;*/
+
+    }
+    html, body {
+        /*height: 100%;*/
+    }
+
+    body > main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    figure {
+        margin: initial;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 767px) {
+    /* start of medium tablet styles */
+    html, body {
+
+    }
+
+    body > header, body > footer {
+        font-size: 20px;
+    }
+
+    body > header > .left {
+        font-size: 20px;
+        line-height: initial;
+        padding-left: 4px;
+    }
+
+    body > main > footer > form > input[type="text"] {
+        width: 120px;
+    }
+
+    body > main > footer > form > input[type="submit"] {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 479px) {
+    html, body {
+
+    }
+}

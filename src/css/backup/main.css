@@ -1,0 +1,110 @@
+html {
+    /*padding: 32px 64px;*/
+    /*padding: 1vh 1vw;*/
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+
+}
+
+html, body {
+    margin: 0;
+}
+
+html, body, body > main {
+    font-family: 'Quicksand', monospace;
+    font-size: 18px;
+}
+
+body > main a {
+    color: #4488bb;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/** {
+    font-family: monospace;
+    font-size: 24px;
+}*/
+
+body {
+    /*border: 1px solid #888;*/
+    box-sizing: border-box;
+    /*max-width: 800px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 1px;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 0;
+    border-width: 1px;
+    margin: 1px;
+}
+
+.spacing {
+    white-space: pre-wrap;
+}
+
+body > main {
+    /*max-height: 90%;*/
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+body > main > section {
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+body > main > section > ul {
+    list-style-type: square;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+h2 {
+    font-size: 1.0em;
+}
+
+figure {
+    width: 80%;
+}
+
+figure > header {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+ul {
+    list-style-type: "\2605";
+    padding-inline-start: 20px;
+}
+
+ul > li {
+    padding-left: 10px;
+}

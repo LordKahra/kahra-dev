@@ -43,7 +43,7 @@ body > header > *:first-child {
     flex-grow: 1;
 }
 
-body > header > button {
+body > header > .connect {
     color: var(--color-contrast);
     background-color: var(--color-background-contrast);
     font-family: var(--font-monospace), monospace;
@@ -70,4 +70,44 @@ body > footer > ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+body > header > .connect {
+    border: 1px solid var(--color-background-contrast);
+}
+
+body > header > .connect:hover {
+    background-color: var(--color-secondary);
+}
+
+body > header a:focus-visible,
+body > footer a:focus-visible {
+    outline: 2px solid var(--color-intense);
+    outline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+    body > header {
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+    }
+
+    body > header > ul {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    body > header > ul > li {
+        padding-left: 0;
+    }
+
+    html body > footer {
+        font-size: 0.75rem;
+        flex-wrap: wrap;
+        gap: 0.25rem 1rem;
+        padding: 0.5rem 1rem;
+        line-height: 1.5;
+    }
 }

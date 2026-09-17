@@ -66,13 +66,13 @@ function renderHeaderStart() {
     </div>
 
     <ul>
-        <li>Experience</li>
-        <li>Skillset</li>
-        <li>Works</li>
-        <li>About</li>
+        <li><a href="<?=SITE_HOST;?>/#experience">Experience</a></li>
+        <li><a href="<?=SITE_HOST;?>/#skillset">Skillset</a></li>
+        <li><a href="<?=SITE_HOST;?>/#works">Works</a></li>
+        <li><a href="<?=SITE_HOST;?>/#about">About</a></li>
     </ul>
 
-    <button>Connect</button>
+    <a class="connect" href="https://www.linkedin.com/in/laneflores/">Connect</a>
 
     <?php
     }

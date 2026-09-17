@@ -22,15 +22,15 @@ class IndexPage extends Page {
             </header>
             <main>
                 <p class="code">~/portfolio git:(main)</p>
-                <h1>Software Engineer and Storyteller.</h1>
+                <h1>Software Engineer.</h1>
                 <section class="subtitle">
                     <div class="summary">
-                        A software engineer bridging the gap between robust engineering and immersive digital narratives. Based in the intersection of code and imagination.
+                        Backend engineer with 10+ years delivering integrations across payments, commerce, and telecom. I turn ambiguous requirements into working software, with documentation that makes it easier to hand off.
                     </div>
                     <ul class="code">
-                        <li>Initializing environment...</li>
-                        <li>Loading core_modules/storytelling...</li>
-                        <li>Status: <span class="contrast">Ready</span></li>
+                        <li>Focus: integrations &amp; solutions delivery</li>
+                        <li>Languages: PHP, Go, Python</li>
+                        <li>Based in <span class="contrast">Atlanta, GA</span></li>
                     </ul>
                 </section>
             </main>
@@ -39,31 +39,31 @@ class IndexPage extends Page {
         <h1>Skillset</h1>
         <section id="skillset">
             <figure class="backend">
-                <header>Back-End & Core</header>
+                <header>Back-End &amp; Core</header>
                 <ul>
-                    <li>PHP 5, 7, 8+</li>
+                    <li>PHP 5 - 8.3</li>
+                    <li>Go</li>
+                    <li>Python</li>
                     <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
                 </ul>
             </figure>
             <figure class="interactive">
-                <header>Interactive</header>
+                <header>Integrations</header>
                 <ul>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
+                    <li>REST / JSON APIs</li>
+                    <li>Salesforce</li>
+                    <li>Apex / Visualforce</li>
+                    <li>Lua</li>
                 </ul>
             </figure>
             <figure class="devops">
-                <header>Devops</header>
+                <header>Delivery &amp; Tooling</header>
                 <ul>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
-                    <li>MySQL</li>
+                    <li>MCP / RAG</li>
+                    <li>GitHub Copilot</li>
+                    <li>MkDocs</li>
+                    <li>Code review</li>
                 </ul>
             </figure>
             <figure class="frontend">
@@ -71,7 +71,7 @@ class IndexPage extends Page {
                 <ul>
                     <li>HTML5</li>
                     <li>CSS</li>
-                    <li>MySQL</li>
+                    <li>JavaScript</li>
                 </ul>
             </figure>
         </section>
@@ -119,12 +119,12 @@ class IndexPage extends Page {
                 <li>
                     <header>
                         <h1>Waystar</h1>
-                        <h2>Aug 2024 - Current</h2>
+                        <h2>Aug 2024 - May 2026</h2>
                     </header>
                     <ul>
-                        <li>INFO</li>
-                        <li>INFO</li>
-                        <li>INFO</li>
+                        <li>Built and extended backend APIs and internal tooling for healthcare payment services, including refunds, offline payments, and manual ACH transfers.</li>
+                        <li>Integrated AI-assisted engineering workflows with human review into daily development.</li>
+                        <li>Improved documentation and handoff with MkDocs/Python and production debugging support.</li>
                     </ul>
                 </li>
             </ul>
@@ -132,12 +132,11 @@ class IndexPage extends Page {
                 <li>
                     <header>
                         <h1>Yum! Brands</h1>
-                        <h2>??? ???? - ??? ????</h2>
+                        <h2>Jan 2023 - Feb 2024</h2>
                     </header>
                     <ul>
-                        <li>INFO</li>
-                        <li>INFO</li>
-                        <li>INFO</li>
+                        <li>Delivered checkout validation and promotional item-identification logic for Pizza Hut's digital commerce services.</li>
+                        <li>Improved visibility into production time-related errors through targeted logging and documentation.</li>
                     </ul>
                 </li>
             </ul>
@@ -145,7 +144,7 @@ class IndexPage extends Page {
                 <li>
                     <header>
                         <h1>Star2Star Communications</h1>
-                        <h2>Jan 2017 - ??? ????</h2>
+                        <h2>Jan 2017 - Oct 2022</h2>
                     </header>
                     <ul>
                         <li>Developed Lua programs which interacted with the Event Socket Layer to respond to phone call events. Users could dial an emergency code to invite other users to a conference room via text or phone call.</li>
@@ -180,11 +179,6 @@ class IndexPage extends Page {
             </ul>
         </section>
 
-        <h1>About</h1>
-        <section id="about">
-
-        </section>
-
 
         <section>
             <h1>Welcome. My name is Lane.</h1>
@@ -196,7 +190,7 @@ class IndexPage extends Page {
         </section>
 
         <section>
-            <h1 id="skillset">Skillset</h1>
+            <h1 id="legacy-skillset">Skillset</h1>
 
             <ul>
                 <li>PHP 7+, MySQL, JavaScript</li>

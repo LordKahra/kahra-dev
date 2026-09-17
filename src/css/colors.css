@@ -1,19 +1,20 @@
 :root {
     --color-primary: #ccc;
-    --color-secondary: #f6b26d;
+    --color-secondary: #ffd597;
     --color-contrast: #000;
-    --color-intense: #cc9900;
+    --color-intense: #ffb000;
     --color-monospace: #d7c4ac;
     --color-monospace-title: #f5d6b8;
-    --color-monospace-dim: #807466;
-    --color-monospace-contrast: #cc6600;
+    --color-monospace-dim: #9f8e78;
+    --color-monospace-contrast: #ffb000;
     --color-background-primary: #111;
     --color-background-secondary: #000;
     --color-background-tertiary: #222;
     --color-background-light: #444;
-    --color-background-contrast: #ff9f40;
+    --color-background-contrast: #ffb000;
     --color-background-monospace: #000;
     --color-background-monospace-title: #222;
+    --color-border: #524533;
 
     --color-button-red: #bf3030;
     --color-button-yellow: #bfbf30;

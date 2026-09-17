@@ -299,14 +299,3 @@ ul > li {
 .terminal > main > section.subtitle > ul.code > li::before {
     content: "> ";
 }
-
-
-
-
-
-/* Leave room for the two-row mobile header when following an anchor. */
-@media (max-width: 767px) {
-    html {
-        --header-scroll-offset: 6.5rem;
-    }
-}

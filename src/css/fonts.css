@@ -5,18 +5,12 @@
 
 /* FREE FOR COMMERCIAL USE */
 
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&family=VT323&display=swap');
 
 /*@font-face {
     font-family: 'VT323';
     src: url('../../res/fonts/VT323-Regular.ttf');
 }*/
-
-@font-face {
-    font-family: 'Quicksand';
-    src: url('../../res/fonts/Quicksand.ttf');
-    font-weight: 400;
-}
 
 @font-face {
     font-family: 'Sansita';
@@ -167,5 +161,7 @@
 
 :root {
     --font-monospace: 'Source Code Pro', monospace;
+    --font-body: 'IBM Plex Sans', Arial, sans-serif;
+    --font-heading: 'Space Mono', monospace;
 }
 

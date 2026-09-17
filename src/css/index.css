@@ -1,3 +1,11 @@
+/* Space Mono has regular and bold weights; a light stroke softens the jump. */
+body > main > h1,
+#intro > main > h1 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    -webkit-text-stroke: 0.2px currentColor;
+}
+
 body > main > h1 {
     text-align: start;
     width: 100%;
@@ -277,5 +285,108 @@ body > main a:focus-visible {
     #experience .dates {
         flex-basis: 100%;
         margin-left: 0;
+    }
+}
+
+/* About panel. */
+#about {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+    padding: 2.5rem;
+    border: var(--size-border-default) solid var(--color-border);
+    border-radius: var(--size-radius-default);
+    background-color: var(--color-background-tertiary);
+}
+
+#about > .summary,
+#about > .portrait {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+#about h1 {
+    color: var(--color-secondary);
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 400;
+    -webkit-text-stroke: 0.2px currentColor;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+#about .bio {
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+#about .bio > p + p {
+    margin-top: 1rem;
+}
+
+#about .placeholder {
+    color: var(--color-monospace);
+}
+
+#about .flags {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+#about .flags > img {
+    width: auto;
+    height: 1rem;
+}
+
+#about .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+}
+
+#about .links > li {
+    padding-left: 0;
+}
+
+#about .portrait {
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px dashed var(--color-border);
+    border-radius: 0.5rem;
+    background-color: var(--color-background-primary);
+    background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+    background-size: 1.5rem 1.5rem;
+    color: var(--color-monospace);
+    font-family: var(--font-monospace);
+    font-size: 0.875rem;
+}
+
+#about .portrait > figcaption {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 767px) {
+    #about {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    #about > .summary,
+    #about > .portrait {
+        flex-basis: auto;
     }
 }

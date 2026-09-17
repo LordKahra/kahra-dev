@@ -80,7 +80,8 @@ html, body {
 }
 
 html, body, body > main {
-    font-family: 'Quicksand', monospace;
+    font-family: var(--font-body);
+    line-height: 1.6;
     /*font-size: 18px;*/
 }
 

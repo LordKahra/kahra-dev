@@ -211,36 +211,26 @@ class IndexPage extends Page {
         </section>
 
 
-        <section>
-            <h1>Welcome. My name is Lane.</h1>
-            <p>Choose your path.</p>
-            <p><a href="#skillset">What can you do?</a></p>
-            <p><a href="#experience">Where have you been?</a></p>
-            <p><a href="#portfolio">What have you done?</a></p>
-            <p><a href="#about">Who are you?</a></p>
-        </section>
-
-        <section>
-            <h1 id="legacy-skillset">Skillset</h1>
-
-            <ul>
-                <li>PHP 7+, MySQL, JavaScript</li>
-                <li>HTML5, CSS3, Bootstrap</li>
-                <li>Java, JUnit</li>
-                <li>Lua</li>
-                <li>Salesforce, Apex, Visualforce</li>
-                <li>Android</li>
-                <li>Git, Heroku</li>
-                <li>Agile Software Development</li>
-            </ul>
-        </section>
-
-        <section>
-            <h1 id="about">About Me</h1>
-
-            <p>My name's Lane (he/him). I'm a software developer. I'm also an avid LARPer and storyteller.</p>
-
-            <p><img src="<?=SITE_HOST;?>/res/images/flag-lgbt.png"/> <img src="<?=SITE_HOST;?>/res/images/flag-trans.png"/></p>
+        <section id="about">
+            <div class="summary">
+                <h1>About Lane</h1>
+                <div class="bio">
+                    <p>My name's Lane (he/him). I'm a software developer. I'm also an avid LARPer and storyteller.</p>
+                    <p class="placeholder">[More about me — copy to come.]</p>
+                </div>
+                <div class="flags">
+                    <img src="<?=SITE_HOST;?>/res/images/flag-lgbt.png" alt="LGBTQ+ pride flag"/>
+                    <img src="<?=SITE_HOST;?>/res/images/flag-trans.png" alt="Transgender pride flag"/>
+                </div>
+                <ul class="links">
+                    <li><a href="<?=SITE_HOST;?>/res/text/resume.pdf">Resume.pdf</a></li>
+                    <li><a href="https://www.linkedin.com/in/laneflores/">Get in touch</a></li>
+                </ul>
+            </div>
+            <figure class="portrait">
+                <p>[Image placeholder]</p>
+                <figcaption>Portrait or workspace photo</figcaption>
+            </figure>
         </section>
     <?php }
 }

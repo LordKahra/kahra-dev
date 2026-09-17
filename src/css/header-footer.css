@@ -13,9 +13,19 @@ body > footer {
 
 body > header > .name {
     font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+}
+
+body > header > .name .surname {
     font-weight: 400;
     -webkit-text-stroke: 0.2px currentColor;
-    letter-spacing: -0.04em;
+}
+
+body > header > .name .cursor {
+    color: var(--color-intense);
+    margin-left: 0.125rem;
 }
 
 body > header > ul {

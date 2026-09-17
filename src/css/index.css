@@ -108,6 +108,7 @@ body > main a:focus-visible {
     outline-offset: 4px;
 }
 
+body > main > h1,
 #skillset, #works, #experience, #about {
     scroll-margin-top: 1rem;
 }

@@ -36,7 +36,7 @@ class IndexPage extends Page {
             </main>
         </section>
 
-        <h1>Skillset</h1>
+        <h1 id="skillset-heading">Skillset</h1>
         <section id="skillset">
             <figure class="backend">
                 <header>Back-End &amp; Core</header>
@@ -139,7 +139,7 @@ class IndexPage extends Page {
             </figure>
         </section>
 
-        <h1>Experience</h1>
+        <h1 id="experience-heading">Experience</h1>
         <section id="experience">
             <ul>
                 <li>

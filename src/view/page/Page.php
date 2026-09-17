@@ -70,8 +70,8 @@ function renderHeaderStart() {
     </div>
 
     <ul>
-        <li><a href="<?=SITE_HOST;?>/#experience-heading">Experience</a></li>
         <li><a href="<?=SITE_HOST;?>/#skillset-heading">Skillset</a></li>
+        <li><a href="<?=SITE_HOST;?>/#experience-heading">Experience</a></li>
         <li><a href="<?=SITE_HOST;?>/#portfolio">Works</a></li>
         <li><a href="<?=SITE_HOST;?>/#about">About</a></li>
     </ul>

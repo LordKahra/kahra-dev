@@ -11,6 +11,15 @@ body > footer {
     gap: 2rem;
 }
 
+/* Match the content column while the header background spans the viewport. */
+body > header {
+    min-height: 4rem;
+    flex-shrink: 0;
+    padding: 0.75rem max(2rem, calc((100% - 1200px) / 2 + 2rem));
+    background-color: #131313;
+    border-bottom: 1px solid #353535;
+}
+
 body > header > .name {
     font-family: var(--font-wordmark);
     font-weight: 400;
@@ -81,7 +90,24 @@ body > header > ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    color: var(--color-monospace);
+}
+
+body > header > ul > li {
+    padding-left: 0;
+}
+
+body > header > ul a {
+    display: inline-block;
+    padding: 0.25rem 0;
+    line-height: 1.5;
+}
+
+body > header > ul a:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+    text-underline-offset: 0.375rem;
 }
 
 body > header img,
@@ -109,9 +135,10 @@ body > header > .connect {
     color: var(--color-contrast);
     background-color: var(--color-background-contrast);
     font-family: var(--font-monospace), monospace;
-    font-size: 0.75rem;
-    border-radius: 0.375rem;
-    padding: 0.125rem 0.5rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
 }
 
 body > footer {
@@ -152,11 +179,17 @@ body > footer a:focus-visible {
     body > header > .left.name {
         font-size: 1.75rem;
         line-height: 1.2;
+        padding-left: 0;
     }
 
     body > header {
+        padding: 0.75rem 1rem;
         flex-wrap: wrap;
         gap: 0.5rem 1rem;
+    }
+
+    body > header > .connect {
+        padding-inline: 0.75rem;
     }
 
     body > header > ul {

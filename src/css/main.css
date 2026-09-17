@@ -73,7 +73,7 @@ html {
     height: auto;
     box-sizing: border-box;
     scroll-padding-top: var(--header-scroll-offset);
-    scroll-padding-bottom: 4.5rem;
+    scroll-padding-bottom: 1rem;
 
 }
 

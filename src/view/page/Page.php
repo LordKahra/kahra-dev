@@ -105,12 +105,12 @@ function renderHeaderStart() {
 
 </main>
 <footer>
-    <main>
+    <p class="copyright">
         © 2026 Lane Flores // kahra-dev 2.0
-    </main>
+    </p>
     <ul>
-        <li><a href="https://github.com/LordKahra"><!--img src="<?=SITE_HOST . "/res/images/icon-github-32.png"?>" /-->Github</a></li>
-        <li><a href="https://www.linkedin.com/in/laneflores/"><!--img src="<?=SITE_HOST . "/res/images/icon-linkedin.png"?>" /-->LinkedIn</a></li>
+        <li><a href="https://github.com/LordKahra">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/laneflores/">LinkedIn</a></li>
     </ul>
 
 </footer>

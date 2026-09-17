@@ -228,8 +228,7 @@ class IndexPage extends Page {
                 </ul>
             </div>
             <figure class="portrait">
-                <p><img src="<?=SITE_HOST;?>/res/images/2019-02-22-lane.jpg" alt="Lane Flores"></p>
-                <figcaption>Lane Flores</figcaption>
+                <img src="<?=SITE_HOST;?>/res/images/2019-02-22-lane.jpg" alt="Lane Flores" width="3036" height="3036">
             </figure>
         </section>
     <?php }

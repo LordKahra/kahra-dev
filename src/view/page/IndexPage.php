@@ -215,8 +215,8 @@ class IndexPage extends Page {
             <div class="summary">
                 <h1>About Lane</h1>
                 <div class="bio">
-                    <p>My name's Lane (he/him). I'm a software developer. I'm also an avid LARPer and storyteller.</p>
-                    <p class="placeholder">[More about me — copy to come.]</p>
+                    <p>My name's Lane (he/him). I'm a software engineer. I'm also an avid LARPer and storyteller.</p>
+                    <p class="placeholder">[More to come.]</p>
                 </div>
                 <div class="flags">
                     <img src="<?=SITE_HOST;?>/res/images/flag-lgbt.png" alt="LGBTQ+ pride flag"/>
@@ -228,8 +228,8 @@ class IndexPage extends Page {
                 </ul>
             </div>
             <figure class="portrait">
-                <p>[Image placeholder]</p>
-                <figcaption>Portrait or workspace photo</figcaption>
+                <p><img src="<?=SITE_HOST;?>/res/images/2019-02-22-lane.jpg" alt="Lane Flores"></p>
+                <figcaption>Lane Flores</figcaption>
             </figure>
         </section>
     <?php }

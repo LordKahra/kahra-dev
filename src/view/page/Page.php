@@ -50,7 +50,7 @@ function renderHeaderStart() {
     <meta name="theme-color" content="#000000">
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/fonts.css?v=<?=filemtime(SITE_ROOT . "/src/css/fonts.css");?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/colors.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/main.css?v=<?=filemtime(SITE_ROOT . "/src/css/main.css");?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/header-footer.css?v=<?=filemtime(SITE_ROOT . "/src/css/header-footer.css");?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/visible.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/responsive.css"/>

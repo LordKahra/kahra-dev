@@ -122,3 +122,160 @@ body > main a:focus-visible {
         flex-basis: 100%;
     }
 }
+
+/* Project cards and professional experience. */
+#works {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+#works > figure {
+    flex: 1 1 24rem;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    border: var(--size-border-default) solid var(--color-border);
+    border-radius: var(--size-radius-default);
+    background-color: var(--color-background-tertiary);
+    padding: 1.5rem;
+    line-height: 1.6;
+}
+
+#works > figure.featured {
+    flex-basis: 100%;
+    border-top-color: var(--color-intense);
+}
+
+#works > figure > header {
+    margin-bottom: 1rem;
+}
+
+#works .category {
+    color: var(--color-monospace);
+    font-family: var(--font-monospace), monospace;
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin-bottom: 0.375rem;
+}
+
+#works h2 {
+    color: var(--color-secondary);
+    font-family: var(--font-monospace), monospace;
+    font-size: 1.25rem;
+}
+
+#works .details {
+    list-style-type: square;
+    padding-left: 1.25rem;
+    margin: 0.75rem 0 1rem;
+}
+
+#works .details > li {
+    padding-left: 0;
+    margin-bottom: 0.375rem;
+}
+
+#works .stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#works .stack > li {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--color-background-light);
+    font-family: var(--font-monospace), monospace;
+    font-size: 0.75rem;
+}
+
+#works > figure > footer {
+    margin-top: auto;
+    font-size: 0.875rem;
+}
+
+#experience {
+    width: 100%;
+    align-items: stretch;
+    line-height: 1.6;
+}
+
+#experience > ul {
+    border-left: var(--size-border-default) solid var(--color-border);
+    padding: 0 0 2rem 1.5rem;
+    margin-left: 0.5rem;
+    list-style-type: none;
+}
+
+#experience > ul:last-child {
+    padding-bottom: 0;
+}
+
+#experience > ul > li {
+    position: relative;
+    padding-left: 0;
+}
+
+#experience > ul > li::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5rem - 0.375rem - 1px);
+    top: 0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--color-intense);
+    border-radius: 50%;
+}
+
+#experience header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 1rem;
+    margin-bottom: 0.75rem;
+}
+
+#experience h2 {
+    color: var(--color-secondary);
+    font-size: 1.125rem;
+}
+
+#experience .dates {
+    margin-left: auto;
+    color: var(--color-monospace);
+    font-family: var(--font-monospace), monospace;
+    font-size: 0.8125rem;
+}
+
+#experience .role {
+    flex-basis: 100%;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+#experience > ul > li > ul {
+    list-style-type: square;
+    padding-left: 1.25rem;
+}
+
+#experience > ul > li > ul > li {
+    padding-left: 0;
+    margin-bottom: 0.375rem;
+}
+
+@media (max-width: 767px) {
+    #works > figure {
+        flex-basis: 100%;
+        padding: 1rem;
+    }
+
+    #experience .dates {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+}

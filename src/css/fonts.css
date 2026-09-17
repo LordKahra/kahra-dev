@@ -5,7 +5,7 @@
 
 /* FREE FOR COMMERCIAL USE */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=IBM+Plex+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&family=VT323&display=swap');
 
 /*@font-face {
     font-family: 'VT323';
@@ -163,5 +163,6 @@
     --font-monospace: 'Source Code Pro', monospace;
     --font-body: 'IBM Plex Sans', Arial, sans-serif;
     --font-heading: 'Space Mono', monospace;
+    --font-wordmark: 'Bungee Hairline', monospace;
 }
 

@@ -48,10 +48,10 @@ function renderHeaderStart() {
     <title><?=$this->getTitle();?></title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/fonts.css?v=<?=filemtime(SITE_ROOT . "/src/css/fonts.css");?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/colors.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/header-footer.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/header-footer.css?v=<?=filemtime(SITE_ROOT . "/src/css/header-footer.css");?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/visible.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/responsive.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_HOST; ?>/src/css/<?=$this->getType()?>.css"/>
@@ -62,7 +62,11 @@ function renderHeaderStart() {
 <header>
 
     <div class="left name">
-        <a href="<?=SITE_HOST . "/"?>">Lane Flores</a>
+        <a href="<?=SITE_HOST . "/"?>">
+            <span class="name-copy cyan" aria-hidden="true">Lane Flores</span>
+            <span class="name-copy magenta" aria-hidden="true">Lane Flores</span>
+            <span class="name-label">Lane Flores</span>
+        </a>
     </div>
 
     <ul>

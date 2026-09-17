@@ -12,20 +12,68 @@ body > footer {
 }
 
 body > header > .name {
-    font-family: var(--font-heading);
-    font-weight: 700;
+    font-family: var(--font-wordmark);
+    font-weight: 400;
     letter-spacing: -0.04em;
     white-space: nowrap;
 }
 
-body > header > .name .surname {
+/* Identical text copies offset behind the unaltered hairline lettering. */
+body > header > .name > a {
+    position: relative;
+    display: inline-block;
+    isolation: isolate;
+    font-family: var(--font-wordmark);
     font-weight: 400;
-    -webkit-text-stroke: 0.2px currentColor;
+    font-synthesis: none;
+    text-shadow: none;
+    -webkit-text-stroke: 0;
 }
 
-body > header > .name .cursor {
-    color: var(--color-intense);
-    margin-left: 0.125rem;
+body > header > .name .name-label {
+    position: relative;
+    z-index: 1;
+}
+
+body > header > .name .name-copy {
+    position: absolute;
+    inset: 0;
+    font: inherit;
+    letter-spacing: inherit;
+    pointer-events: none;
+    opacity: 0.65;
+}
+
+body > header > .name .cyan {
+    color: #54d6ff;
+    transform: translate(-3px, -1px);
+}
+
+body > header > .name .magenta {
+    color: #ff4d8d;
+    transform: translate(3px, 1px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    body > header > .name .cyan {
+        animation: name-cyan-flicker 7s steps(1, end) infinite;
+    }
+
+    body > header > .name .magenta {
+        animation: name-magenta-flicker 7s steps(1, end) infinite;
+    }
+}
+
+@keyframes name-cyan-flicker {
+    0%, 38%, 41%, 78%, 81%, 100% { transform: translate(-3px, -1px); }
+    39%, 79% { transform: translate(-5px, -2px); }
+    40%, 80% { transform: translate(-2px, 1px); }
+}
+
+@keyframes name-magenta-flicker {
+    0%, 38%, 41%, 78%, 81%, 100% { transform: translate(3px, 1px); }
+    39%, 79% { transform: translate(5px, 2px); }
+    40%, 80% { transform: translate(2px, -1px); }
 }
 
 body > header > ul {
@@ -42,7 +90,7 @@ body > footer img {
 }
 
 body > header > .name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     /*line-height: 2.5rem;*/
     /*padding-top: 0;*/
 }
@@ -101,6 +149,11 @@ body > footer a:focus-visible {
 }
 
 @media (max-width: 767px) {
+    body > header > .left.name {
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+
     body > header {
         flex-wrap: wrap;
         gap: 0.5rem 1rem;
